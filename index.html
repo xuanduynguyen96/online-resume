@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Box icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Resume cv</title>
+    </head>
+    <body>
+        <!--Header-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Xuan Duy Nguyen</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#objectives" class="nav__link">
+                                <i class='bx bx-star nav__icon'></i>Objectives
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon'></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--=====Home=====-->
+                    <section class="home section" id="home">
+                        <div class="home__container bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/me.jpg" alt="" class="home__img">
+    
+                                <h1 class="home__title">Xuan Duy <b>Nguyen</b></h1>
+                                <h3 class="home__profession">Developer</h3>
+    
+                                <!--Button to download cv-->
+                                <div>
+                                    <a download="" href="#" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+    
+                            <div class="home__address bd-grid">
+                                <span class="home_information">
+                                    <i class='bx bx-map home__icon'></i>Dist 2, HCM city
+                                </span>
+    
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i>xuanduynguyen96@gmail.com
+                                </span>
+    
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i>090 149 4604
+                                </span>
+                            </div>
+                        </div>
+
+                        <!--Theme change button-->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+
+                        <!--Button to generate and download pdf, available for desktop-->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+    
+                    <!--=====Social=====-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+    
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/xu%C3%A2n-duy-b83205192/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon'></i> Xuan Duy Nguyen
+                            </a>
+    
+                            <a href="https://github.com/xuanduynguyen96" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon'></i> @xuanduynguyen96
+                            </a>
+
+                            <a href="https://www.facebook.com/xuanduy.nguyen.98" target="_blank" class="social__link">
+                                <i class='bx bxl-facebook social__icon'></i> Xuân Duy Nguyễn
+                            </a>
+    
+                            <a href="https://www.instagram.com/xduyng/" target="_blank" class="social__link">
+                                <i class='bx bxl-instagram social__icon'></i> @xduyng
+                            </a>
+                        </div>
+                    </section>
+    
+                    <!--=====Skills=====-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+    
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="dot-bullet"></span>C++
+                                </li>
+    
+                                <li class="skills__name">
+                                    <span class="dot-bullet"></span>C# (Winform, WPF, ASP.Net)
+                                </li>
+    
+                                <li class="skills__name">
+                                    <span class="dot-bullet"></span>HTML/CSS/JavaScript
+                                </li>
+    
+                                <li class="skills__name">
+                                    <span class="dot-bullet"></span>NodeJS
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--=====Languages=====-->
+                    <section class="languages section" id="languages">
+                        <h2 class="section-title">Languages</h2>
+    
+                        <div class="languages__content bd-grid">
+                            <ul class="languages__data">
+                                <li class="languages__name">
+                                    <span class="dot-bullet"></span>English
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+    
+                <div class="resume__right">
+                    <!--=====Profile=====-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">
+                            <i class='bx bxs-user'></i>Profile
+                        </h2>
+    
+                        <p class="profile__description">
+                            Software engineer with over 2 years experience in developing c++
+                            software and c# windows application.<br>
+                            Proven ability in leading a team with 2-3 members.<br>
+                            Have basic knowledge in web developing.
+                        </p>
+                    </section>
+
+                    <!--Objectives-->
+                    <section class="objectives section" id="objectives">
+                        <h2 class="section-title">
+                            <i class='bx bxs-star'></i>Objectives
+                        </h2>
+
+                        <p class="objectives__description">
+                            Wish to obtain a C#/.Net developer position where my experience in developing desktop
+                            application using C# (Winform, WPF) will be valuable.
+                        </p>
+                    </section>
+
+                    <!--Experience-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">
+                            <i class='bx bxs-briefcase'></i>Experience
+                        </h2>
+    
+                        <div class="experience__container bd-grid">
+                            <div class="exprience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Developer</h3>
+                                    <span class="experience__company">FPT Software</span>
+                                    <span class="experience__year">December 2019 — Present</span>
+                                    <ul class="experience__data">
+                                        <li class="experience__description">
+                                            <p class="experience__detail">
+                                                - Develop and maintain Sequence sub-system of Hitachi's MRI machine using C++ 
+                                                language.
+                                            </p>
+                                        </li>
+    
+                                        <li class="experience__description">
+                                            <p class="experience__detail">
+                                                - Implement new feature of MRI machine to be able to convert frequency from 32bit to
+                                                64bit based on hardware configuration.
+                                            </p>
+                                        </li>
+    
+                                        <li class="experience__description">
+                                            <p class="experience__detail">
+                                                - Create a desktop application using C# language (Winform) to simulate a real MRI
+                                                machine controller application. The purpose is to easily create multiple data for testing
+                                                without complicated setting on the real application and environment setup.
+                                            </p>
+                                        </li>
+    
+                                        <li class="experience__description">
+                                            <p class="experience__detail">
+                                                - Create a desktop application using C# language (Winform) to compare result generating
+                                                from MRI machine to track whether the applied modification affects the main function,
+                                                the number of result can be up to 10000 files and separated by 5 types of data.
+                                            </p>
+                                        </li>
+    
+                                        <li class="experience__description">
+                                            <p class="experience__detail">
+                                                - Create a desktop application using C# language (WPF) to be able to integrate multiple
+                                                application to automatically get source code via Git, generating result from that and
+                                                compare result to export a html report to track down the affection of modification to
+                                                main function of MRI machine.
+                                            </p>
+                                        </li>
+    
+                                        <li class="experience__description">
+                                            <p class="experience__detail">
+                                                - Create several small window applications to support and reduce effort during task
+                                                and refactored legacy codebase of existing applications without changing their current
+                                                behavior logics.
+                                            </p>
+                                        </li>
+    
+                                        <li class="experience__description">
+                                            <p class="experience__detail">
+                                                - Also contribute in defining hundred of test cases and documents for release coding
+                                                products.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="exprience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line last-line"></span>
+                                </div>
+    
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Developer</h3>
+                                    <span class="experience__company">FPT Software</span>
+                                    <span class="experience__year">June 2019 — November 2019</span>
+                                    <ul class="experience_data">
+                                        <li class="experience__description">
+                                            <p class="experience__detail">
+                                                Developed and maintained Injection molding machine system of
+                                                Sumitomo using ST programming language for PLC
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+    
+                    <!--=====Education=====-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">
+                            <i class='bx bxs-graduation' ></i>Education
+                        </h2>
+    
+                        <div class="education__content bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line last-line"></span>
+                                </div>
+    
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Bachelor of Engineer</h3>
+                                    <span class="education__studies">HCMC University of Technology and Education</span>
+                                    <span class="education__year">2014 - 2019</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--=====Languages=====-->
+                    <!-- <section class="languages section" id="languages">
+                        <h2 class="section-title">Languages</h2>
+    
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>English
+                                </li>
+                            </div>
+                        </div>
+                    </section> -->
+                </div>
+            </div>
+        </main>
+
+        <!--Scroll Top-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--Html2Pdf-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--Main JS-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
